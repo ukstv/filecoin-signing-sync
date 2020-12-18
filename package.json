@@ -1,11 +1,11 @@
 {
   "name": "filecoin-signing-sync",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Asynchronous wrapper around Filecoin-signing-tools",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "scripts": {},
-  "author": "",
+  "files": ["lib/"],
+  "author": "Sergey Ukustov <sergey@ukstv.me>",
   "license": "(MIT OR Apache-2.0)",
   "dependencies": {
     "@zondax/filecoin-signing-tools": "^0.13.0"
